@@ -93,10 +93,6 @@ push → lint (ruff) → unit tests (pytest, %94 cov) → integration (testconta
      → docker build → newman smoke → k8s-validate (kubeconform)
 ```
 
-## Demo Video
-
-[YouTube linki](https://youtube.com) *(sunum öncesi güncellenecek)*
-
 ## Lisans
 
 MIT — [cagdas-karatas](LICENSE)
