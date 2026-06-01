@@ -16,6 +16,7 @@ from src.services.movie_service import (
 
 app = FastAPI(title="Movie Watchlist API", version="1.0.0")
 
+#deneme
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
